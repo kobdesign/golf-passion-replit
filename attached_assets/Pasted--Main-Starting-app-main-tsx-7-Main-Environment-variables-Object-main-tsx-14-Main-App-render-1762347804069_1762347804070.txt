@@ -1,0 +1,100 @@
+[Main] Starting app...
+main.tsx:7 [Main] Environment variables: Object
+main.tsx:14 [Main] App rendered
+react-router-dom.js?v=495f54c4:4393 ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+warnOnce @ react-router-dom.js?v=495f54c4:4393Understand this warning
+react-router-dom.js?v=495f54c4:4393 ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+warnOnce @ react-router-dom.js?v=495f54c4:4393Understand this warning
+AuthContext.tsx:26 [Auth] State change: SIGNED_IN Object
+AuthContext.tsx:26 [Auth] State change: INITIAL_SESSION Object
+AuthContext.tsx:36 [Auth] Get session: Object null
+AuthContext.tsx:49 [Auth] Loading complete
+AuthContext.tsx:26 [Auth] State change: SIGNED_IN Object
+HoleMapView.tsx:50 [HoleMapView] Initializing map... Object
+HoleMapView.tsx:82 [HoleMapView] Tee position: Object
+HoleMapView.tsx:88 [HoleMapView] Pin position: Array(2)
+HoleMapView.tsx:107 [HoleMapView] Coordinates: Object
+HoleMapView.tsx:123 [HoleMapView] WebGL supported: true
+HoleMapView.tsx:134 [HoleMapView] Container dimensions: Object
+HoleMapView.tsx:149 [HoleMapView] Creating Mapbox map instance...
+HoleMapView.tsx:198 [HoleMapView] Render event count: 1
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:189 [HoleMapView] Style data event: style
+HoleMapView.tsx:172 [HoleMapView] Style loaded successfully
+4HoleMapView.tsx:183 [HoleMapView] Source data loaded: composite
+HoleMapView.tsx:189 [HoleMapView] Style data event: style
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+3HoleMapView.tsx:189 [HoleMapView] Style data event: style
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: composite
+HoleMapView.tsx:203 [HoleMapView] Map loaded successfully
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: tee-target-line
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: target-pin-line
+2HoleMapView.tsx:183 [HoleMapView] Source data loaded: tee-target-line
+2HoleMapView.tsx:183 [HoleMapView] Source data loaded: target-pin-line
+HoleMapView.tsx:189 [HoleMapView] Style data event: style
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: target-pin-line
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: tee-target-line
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: tee-target-line
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: tee-target-line
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: target-pin-line
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: target-pin-line
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: target-pin-line
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: target-pin-line
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: tee-target-line
+HoleMapView.tsx:209 [HoleMapView] Canvas elements found: 1
+HoleMapView.tsx:214 [HoleMapView] Canvas 0: Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: tee-target-line
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: target-pin-line
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:198 [HoleMapView] Render event count: 50
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: tee-target-line
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: target-pin-line
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:183 [HoleMapView] Source data loaded: composite
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords Array(2) target Array(2) pin Array(2) distances Object
+HoleMapView.tsx:431 [HoleMapView] tee blue teeCoords (2) [100.54098031220758, 13.983057766323725] target (2) [100.54223796283898, 13.983461585999244] pin (2) [100.54349561347038, 13.983865405674763] distances {dbgTeeToTarget: 156, dbgTargetToPin: 156}
+HoleMapView.tsx:198 [HoleMapView] Render event count: 100

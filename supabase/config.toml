@@ -1,0 +1,13 @@
+project_id = "pfkplkcmigbinqautyjx"
+
+[functions.get-mapbox-token]
+verify_jwt = false
+
+[functions.sync-golf-courses]
+verify_jwt = true
+
+[functions.get-course-details]
+verify_jwt = true
+
+[functions.sync-google-places]
+verify_jwt = true

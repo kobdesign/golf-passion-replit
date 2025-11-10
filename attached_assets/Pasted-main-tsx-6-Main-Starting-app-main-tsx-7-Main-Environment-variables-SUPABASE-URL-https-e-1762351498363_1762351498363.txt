@@ -1,0 +1,57 @@
+main.tsx:6 [Main] Starting app...
+main.tsx:7 [Main] Environment variables: {SUPABASE_URL: 'https://exntlsasbkwadxsctjle.supabase.co', SUPABASE_KEY_LENGTH: 208, MAPBOX_TOKEN_LENGTH: 92}
+main.tsx:14 [Main] App rendered
+react-router-dom.js?v=495f54c4:4393 ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+warnOnce @ react-router-dom.js?v=495f54c4:4393
+logDeprecation @ react-router-dom.js?v=495f54c4:4396
+logV6DeprecationWarnings @ react-router-dom.js?v=495f54c4:4399
+(anonymous) @ react-router-dom.js?v=495f54c4:5271
+commitHookEffectListMount @ chunk-276SZO74.js?v=495f54c4:16915
+commitPassiveMountOnFiber @ chunk-276SZO74.js?v=495f54c4:18156
+commitPassiveMountEffects_complete @ chunk-276SZO74.js?v=495f54c4:18129
+commitPassiveMountEffects_begin @ chunk-276SZO74.js?v=495f54c4:18119
+commitPassiveMountEffects @ chunk-276SZO74.js?v=495f54c4:18109
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=495f54c4:19490
+flushPassiveEffects @ chunk-276SZO74.js?v=495f54c4:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=495f54c4:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=495f54c4:9119
+commitRootImpl @ chunk-276SZO74.js?v=495f54c4:19432
+commitRoot @ chunk-276SZO74.js?v=495f54c4:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=495f54c4:18805
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=495f54c4:18718
+workLoop @ chunk-276SZO74.js?v=495f54c4:197
+flushWork @ chunk-276SZO74.js?v=495f54c4:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=495f54c4:384
+react-router-dom.js?v=495f54c4:4393 ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+warnOnce @ react-router-dom.js?v=495f54c4:4393
+logDeprecation @ react-router-dom.js?v=495f54c4:4396
+logV6DeprecationWarnings @ react-router-dom.js?v=495f54c4:4402
+(anonymous) @ react-router-dom.js?v=495f54c4:5271
+commitHookEffectListMount @ chunk-276SZO74.js?v=495f54c4:16915
+commitPassiveMountOnFiber @ chunk-276SZO74.js?v=495f54c4:18156
+commitPassiveMountEffects_complete @ chunk-276SZO74.js?v=495f54c4:18129
+commitPassiveMountEffects_begin @ chunk-276SZO74.js?v=495f54c4:18119
+commitPassiveMountEffects @ chunk-276SZO74.js?v=495f54c4:18109
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=495f54c4:19490
+flushPassiveEffects @ chunk-276SZO74.js?v=495f54c4:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=495f54c4:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=495f54c4:9119
+commitRootImpl @ chunk-276SZO74.js?v=495f54c4:19432
+commitRoot @ chunk-276SZO74.js?v=495f54c4:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=495f54c4:18805
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=495f54c4:18718
+workLoop @ chunk-276SZO74.js?v=495f54c4:197
+flushWork @ chunk-276SZO74.js?v=495f54c4:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=495f54c4:384
+AuthContext.tsx:26 [Auth] State change: SIGNED_IN {access_token: 'eyJhbGciOiJIUzI1NiIsImtpZCI6InZKZVU4cFdjaFJyNzJLZW…xzZX0.Pe53f5PEEF8kn-Csz9Ft6nw7_47ieDB5Bn2WmX675VQ', token_type: 'bearer', expires_in: 3600, expires_at: 1762353495, refresh_token: '6tvsdio2v5p5', …}
+AuthContext.tsx:26 [Auth] State change: SIGNED_IN {access_token: 'eyJhbGciOiJIUzI1NiIsImtpZCI6InZKZVU4cFdjaFJyNzJLZW…xzZX0.Pe53f5PEEF8kn-Csz9Ft6nw7_47ieDB5Bn2WmX675VQ', token_type: 'bearer', expires_in: 3600, expires_at: 1762353495, refresh_token: '6tvsdio2v5p5', …}
+AuthContext.tsx:26 [Auth] State change: INITIAL_SESSION {access_token: 'eyJhbGciOiJIUzI1NiIsImtpZCI6InZKZVU4cFdjaFJyNzJLZW…xzZX0.Pe53f5PEEF8kn-Csz9Ft6nw7_47ieDB5Bn2WmX675VQ', token_type: 'bearer', expires_in: 3600, expires_at: 1762353495, refresh_token: '6tvsdio2v5p5', …}
+AuthContext.tsx:36 [Auth] Get session: {access_token: 'eyJhbGciOiJIUzI1NiIsImtpZCI6InZKZVU4cFdjaFJyNzJLZW…xzZX0.Pe53f5PEEF8kn-Csz9Ft6nw7_47ieDB5Bn2WmX675VQ', token_type: 'bearer', expires_in: 3600, expires_at: 1762353495, refresh_token: '6tvsdio2v5p5', …} null
+AuthContext.tsx:49 [Auth] Loading complete
+AuthContext.tsx:26 [Auth] State change: SIGNED_IN {access_token: 'eyJhbGciOiJIUzI1NiIsImtpZCI6InZKZVU4cFdjaFJyNzJLZW…xzZX0.Pe53f5PEEF8kn-Csz9Ft6nw7_47ieDB5Bn2WmX675VQ', token_type: 'bearer', expires_in: 3600, expires_at: 1762353495, refresh_token: '6tvsdio2v5p5', …}
+HoleMapEditor.tsx:79 [HoleMapEditor] Initializing... {hasContainer: true, hasToken: true, tokenLength: 92}
+@supabase_supabase-js.js?v=495f54c4:5633  PATCH https://exntlsasbkwadxsctjle.supabase.co/rest/v1/holes?id=eq.aa138f40-45d4-4993-8cbb-3cf20e52f402 400 (Bad Request)
+(anonymous) @ @supabase_supabase-js.js?v=495f54c4:5633
+(anonymous) @ @supabase_supabase-js.js?v=495f54c4:5654
+await in (anonymous)
+then @ @supabase_supabase-js.js?v=495f54c4:94

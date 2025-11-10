@@ -1,0 +1,219 @@
+{
+  "auth_users": [
+    {
+      "id": "2a119478-1cb0-408c-af26-b6605f2b4d23",
+      "email": "pacharaporn.k@ipassion.co.th",
+      "created_at": "2025-11-05T02:30:11.222534Z",
+      "updated_at": "2025-11-05T06:13:54.643518Z",
+      "email_confirmed_at": "2025-11-05T02:30:11.274418Z",
+      "last_sign_in_at": "2025-11-05T02:30:11.680139Z",
+      "raw_user_meta_data": {
+        "email": "pacharaporn.k@ipassion.co.th",
+        "email_verified": true,
+        "full_name": "Pacharaporn Kamsanong",
+        "phone_verified": false,
+        "sub": "2a119478-1cb0-408c-af26-b6605f2b4d23"
+      }
+    },
+    {
+      "id": "acf66345-37f6-4c85-bc88-91d96dc4e689",
+      "email": "ploypilin.y@ipassion.co.th",
+      "created_at": "2025-11-04T02:05:24.677379Z",
+      "updated_at": "2025-11-05T08:38:19.566871Z",
+      "email_confirmed_at": "2025-11-04T02:05:24.840502Z",
+      "last_sign_in_at": "2025-11-04T06:20:27.510128Z",
+      "raw_user_meta_data": {
+        "email": "ploypilin.y@ipassion.co.th",
+        "email_verified": true,
+        "full_name": "Ploypilin",
+        "phone_verified": false,
+        "sub": "acf66345-37f6-4c85-bc88-91d96dc4e689"
+      }
+    },
+    {
+      "id": "f8a086c9-2b5a-46fc-b762-15700238b91d",
+      "email": "raaaon@gmail.com",
+      "created_at": "2025-11-03T05:56:27.33408Z",
+      "updated_at": "2025-11-05T07:53:41.659414Z",
+      "email_confirmed_at": "2025-11-03T05:56:27.484906Z",
+      "last_sign_in_at": "2025-11-03T16:50:19.21296Z",
+      "raw_user_meta_data": {
+        "email": "raaaon@gmail.com",
+        "email_verified": true,
+        "full_name": "io2",
+        "phone_verified": false,
+        "sub": "f8a086c9-2b5a-46fc-b762-15700238b91d"
+      }
+    },
+    {
+      "id": "6b1ede22-86e7-47ad-a660-b1cf60143407",
+      "email": "ravisuit.o@ctc-g.com.sg",
+      "created_at": "2025-11-03T04:19:32.744481Z",
+      "updated_at": "2025-11-05T08:50:23.599407Z",
+      "email_confirmed_at": "2025-11-03T04:19:32.802271Z",
+      "last_sign_in_at": "2025-11-03T04:19:33.182347Z",
+      "raw_user_meta_data": {
+        "email": "ravisuit.o@ctc-g.com.sg",
+        "email_verified": true,
+        "full_name": "Pea",
+        "phone_verified": false,
+        "sub": "6b1ede22-86e7-47ad-a660-b1cf60143407"
+      }
+    },
+    {
+      "id": "be18df09-0e4a-473d-98c0-ba8c8c55357a",
+      "email": "samart@ipassion.co.th",
+      "created_at": "2025-11-03T03:56:57.241409Z",
+      "updated_at": "2025-11-03T04:59:21.720689Z",
+      "email_confirmed_at": "2025-11-03T03:56:57.283102Z",
+      "last_sign_in_at": "2025-11-03T03:56:57.65696Z",
+      "raw_user_meta_data": {
+        "email": "samart@ipassion.co.th",
+        "email_verified": true,
+        "full_name": "Samart Nuntakhwang",
+        "phone_verified": false,
+        "sub": "be18df09-0e4a-473d-98c0-ba8c8c55357a"
+      }
+    },
+    {
+      "id": "d75328d1-9d6f-4f3f-a71b-5538fe323d53",
+      "email": "kobdesign@gmail.com",
+      "created_at": "2025-11-02T04:08:08.199033Z",
+      "updated_at": "2025-11-05T09:09:00.613987Z",
+      "email_confirmed_at": "2025-11-02T04:08:08.328157Z",
+      "last_sign_in_at": "2025-11-05T09:09:00.577006Z",
+      "raw_user_meta_data": {
+        "email": "kobdesign@gmail.com",
+        "email_verified": true,
+        "full_name": "Abhisak Chonchanakul",
+        "phone_verified": false,
+        "sub": "d75328d1-9d6f-4f3f-a71b-5538fe323d53"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "id": "be18df09-0e4a-473d-98c0-ba8c8c55357a",
+      "username": "samart",
+      "full_name": null,
+      "email": "samart@ipassion.co.th",
+      "avatar_url": null,
+      "handicap": 0,
+      "membership": "free",
+      "bio": null,
+      "created_at": "2025-11-03T03:56:57.241063+00:00",
+      "updated_at": "2025-11-03T03:56:57.241063+00:00",
+      "role": "user"
+    },
+    {
+      "id": "6b1ede22-86e7-47ad-a660-b1cf60143407",
+      "username": "ravisuit.o",
+      "full_name": null,
+      "email": "ravisuit.o@ctc-g.com.sg",
+      "avatar_url": null,
+      "handicap": 0,
+      "membership": "free",
+      "bio": null,
+      "created_at": "2025-11-03T04:19:32.739856+00:00",
+      "updated_at": "2025-11-03T04:19:32.739856+00:00",
+      "role": "user"
+    },
+    {
+      "id": "f8a086c9-2b5a-46fc-b762-15700238b91d",
+      "username": "raaaon",
+      "full_name": null,
+      "email": "raaaon@gmail.com",
+      "avatar_url": null,
+      "handicap": 0,
+      "membership": "free",
+      "bio": null,
+      "created_at": "2025-11-03T05:56:27.331958+00:00",
+      "updated_at": "2025-11-03T05:56:27.331958+00:00",
+      "role": "user"
+    },
+    {
+      "id": "d75328d1-9d6f-4f3f-a71b-5538fe323d53",
+      "username": "kobdesign",
+      "full_name": "Abhisak Chonchanakl",
+      "email": "kobdesign@gmail.com",
+      "avatar_url": "https://cdn.vectorstock.com/i/1000v/19/29/golf-club-golfer-avatar-vector-12831929.jpg",
+      "handicap": 20,
+      "membership": "free",
+      "bio": "Love & Be your self",
+      "created_at": "2025-11-02T04:08:08.197672+00:00",
+      "updated_at": "2025-11-03T07:58:44.972006+00:00",
+      "role": "user"
+    },
+    {
+      "id": "acf66345-37f6-4c85-bc88-91d96dc4e689",
+      "username": "ploypilin.y",
+      "full_name": null,
+      "email": "ploypilin.y@ipassion.co.th",
+      "avatar_url": null,
+      "handicap": 0,
+      "membership": "free",
+      "bio": null,
+      "created_at": "2025-11-04T02:05:24.67115+00:00",
+      "updated_at": "2025-11-04T02:05:24.67115+00:00",
+      "role": "user"
+    },
+    {
+      "id": "2a119478-1cb0-408c-af26-b6605f2b4d23",
+      "username": "pacharaporn.k",
+      "full_name": "Pacharaporn Kamsanong",
+      "email": "pacharaporn.k@ipassion.co.th",
+      "avatar_url": "",
+      "handicap": 0,
+      "membership": "free",
+      "bio": "",
+      "created_at": "2025-11-05T02:30:11.222186+00:00",
+      "updated_at": "2025-11-05T02:40:35.246197+00:00",
+      "role": "user"
+    }
+  ],
+  "user_roles": [
+    {
+      "id": "9d133203-5568-4c62-b830-6fa6cf3b00ae",
+      "user_id": "d75328d1-9d6f-4f3f-a71b-5538fe323d53",
+      "role": "admin",
+      "created_at": "2025-11-02T05:45:04.392256+00:00"
+    },
+    {
+      "id": "6c99c1ea-33d8-4f63-864e-0dc1b0dccb06",
+      "user_id": "be18df09-0e4a-473d-98c0-ba8c8c55357a",
+      "role": "admin",
+      "created_at": "2025-11-03T03:57:16.726291+00:00"
+    },
+    {
+      "id": "d5cf26d8-3889-4190-bdd4-9f61f6454a2a",
+      "user_id": "f8a086c9-2b5a-46fc-b762-15700238b91d",
+      "role": "admin",
+      "created_at": "2025-11-03T07:19:53.81144+00:00"
+    },
+    {
+      "id": "d6eb1ff2-3cd7-4bb4-96fb-2bf42a722a6d",
+      "user_id": "6b1ede22-86e7-47ad-a660-b1cf60143407",
+      "role": "admin",
+      "created_at": "2025-11-03T07:19:56.359038+00:00"
+    },
+    {
+      "id": "785a99b3-bffc-4d18-a459-de512a1ec90d",
+      "user_id": "acf66345-37f6-4c85-bc88-91d96dc4e689",
+      "role": "admin",
+      "created_at": "2025-11-04T05:37:45.764511+00:00"
+    },
+    {
+      "id": "da357683-89bf-403c-ab7a-c8e8d7a2b7e3",
+      "user_id": "2a119478-1cb0-408c-af26-b6605f2b4d23",
+      "role": "admin",
+      "created_at": "2025-11-05T02:47:16.962007+00:00"
+    }
+  ],
+  "metadata": {
+    "exported_at": "2025-11-05T09:09:21.205Z",
+    "total_users": 6,
+    "total_profiles": 6,
+    "total_roles": 6,
+    "source_project": "https://pfkplkcmigbinqautyjx.supabase.co"
+  }
+}
