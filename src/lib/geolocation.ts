@@ -122,6 +122,7 @@ export async function getCurrentPosition(
 
 /**
  * Watch position changes (for live tracking)
+ * Optimized for smooth real-time GPS tracking with reduced timeout
  */
 export async function watchPosition(
   callback: (position: LocationCoordinates) => void,
@@ -132,8 +133,8 @@ export async function watchPosition(
     const watchId = await Geolocation.watchPosition(
       {
         enableHighAccuracy: true,
-        timeout: 10000,
-        maximumAge: 0,
+        timeout: 5000,
+        maximumAge: 1000,
         ...options,
       },
       (position, error) => {

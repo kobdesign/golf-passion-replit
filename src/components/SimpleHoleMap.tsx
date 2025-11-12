@@ -202,7 +202,7 @@ export const SimpleHoleMap = ({
     try {
       const position = await getCurrentPosition({ 
         enableHighAccuracy: true,
-        timeout: 10000
+        timeout: 5000
       });
       
       if (position) {
@@ -211,8 +211,12 @@ export const SimpleHoleMap = ({
         setGpsAccuracy(position.accuracy);
         setGpsStatus('success');
         
-        // Update GPS marker if it exists
+        // Update GPS marker with smooth transition if it exists
         if (gpsMarker.current) {
+          const markerElement = gpsMarker.current.getElement();
+          if (markerElement) {
+            markerElement.style.transition = 'transform 1s ease-out';
+          }
           gpsMarker.current.setLngLat(newGpsPos);
         }
         
@@ -235,8 +239,9 @@ export const SimpleHoleMap = ({
   useEffect(() => {
     fetchGPSPosition();
     
-    // Set up periodic GPS updates (every 10 seconds)
-    const interval = setInterval(fetchGPSPosition, 10000);
+    // Set up periodic GPS updates (every 2 seconds for real-time smooth tracking)
+    // Note: This will increase battery usage by 2-3x compared to 10s interval
+    const interval = setInterval(fetchGPSPosition, 2000);
     return () => clearInterval(interval);
   }, []);
 
