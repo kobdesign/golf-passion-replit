@@ -27,11 +27,12 @@ The application is built with a **React 18 frontend** using **TypeScript** and *
 - **GPS Target Line Mode**: Players can switch between Pin Mode (default) and GPS Mode for target line origin
   - Click GPS icon or Pin icon to toggle modes bidirectionally
   - GPS mode activates pulse animation on GPS marker
-  - Real-time GPS tracking updates player position every 10 seconds
+  - **Real-time GPS tracking updates player position every 2 seconds** (Nov 14, 2025) - improved from 10s for smooth tracking
   - Distance calculations adjust based on active mode (Pin-to-Target vs GPS-to-Target)
   - GPS accuracy display with color-coded indicators (green ≤10m, yellow ≤20m, red >20m)
-  - Smooth mode switching with proper event handler cleanup to prevent handler accumulation
-  - Both markers recreated on mode change to ensure fresh click handlers with current state
+  - Smooth CSS transitions on GPS marker movement (1s ease-out)
+  - Reduced timeout from 10s to 5s for better responsiveness
+  - **Trade-off**: Battery usage increased 2-3x for smooth real-time tracking experience
 
 **UI/UX Decisions**
 - **Progressive Loading**: Implemented with **skeleton components** (`CourseCardSkeleton`, `PostCardSkeleton`, `ListSkeleton`) to improve perceived performance, especially on mobile.
@@ -42,6 +43,14 @@ The application is built with a **React 18 frontend** using **TypeScript** and *
 - **Component Migration**: Key pages leverage custom hooks (`useBookmarks`, `useIsAdmin`, `useSocialFeed`, etc.) to reduce code duplication, improve maintainability, and enhance performance through optimized data fetching.
 - **Database Schema**: Managed through Supabase migrations and Management API. Schema changes (e.g., adding columns) are automated via Supabase Management API using `SUPABASE_ACCESS_TOKEN`, eliminating manual migration steps.
 - **Recent Schema Updates**: Added `target_latitude` and `target_longitude` columns to `holes` table (Nov 2025) for admin-configured target markers in hole maps.
+
+**Known Issues & Fixes** (Nov 2025)
+- **Signup Profile Creation Bug**: The `handle_new_user()` trigger function had issues creating profile records during signup:
+  - **Root Cause**: Function didn't extract `full_name` from user metadata and used empty `search_path`
+  - **Symptoms**: Users could signup but couldn't Like, Post, or Comment due to missing profiles (foreign key constraint errors)
+  - **Fix Applied**: Migration `20251114050000_complete_fix_for_profiles.sql` fixes trigger function and backfills missing profiles
+  - **How to Apply**: See `supabase/APPLY_PROFILE_FIX.md` for detailed instructions using Supabase CLI or Dashboard
+  - **Prevention**: Trigger now properly extracts all metadata fields with fallback chains to prevent NULL values
 
 ### External Dependencies
 - **Database**: Supabase (PostgreSQL)
