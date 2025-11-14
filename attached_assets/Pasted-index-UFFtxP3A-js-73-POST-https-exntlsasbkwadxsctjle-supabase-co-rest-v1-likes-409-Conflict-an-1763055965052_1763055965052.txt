@@ -1,0 +1,62 @@
+index-UFFtxP3A.js:73  POST https://exntlsasbkwadxsctjle.supabase.co/rest/v1/likes 409 (Conflict)
+(anonymous) @ index-UFFtxP3A.js:73
+(anonymous) @ index-UFFtxP3A.js:73
+await in (anonymous)
+then @ index-UFFtxP3A.js:51Understand this error
+SocialFeed-B3KDfEiG.js:90 [Like] Insert error: {code: '23503', details: 'Key is not present in table "profiles".', hint: null, message: 'insert or update on table "likes" violates foreign key constraint "likes_user_id_fkey"'}
+mutationFn @ SocialFeed-B3KDfEiG.js:90
+await in mutationFn
+fn @ index-UFFtxP3A.js:51
+y @ index-UFFtxP3A.js:51
+start @ index-UFFtxP3A.js:51
+execute @ index-UFFtxP3A.js:51
+await in execute
+mutate @ useMutation-oZf7AXrP.js:1
+(anonymous) @ useMutation-oZf7AXrP.js:1
+T @ SocialFeed-B3KDfEiG.js:90
+onClick @ SocialFeed-B3KDfEiG.js:90
+te @ vendor-CdqhRulx.js:55
+om @ vendor-CdqhRulx.js:55
+Vf @ vendor-CdqhRulx.js:55
+fE @ vendor-CdqhRulx.js:55
+Cy @ vendor-CdqhRulx.js:67
+ix @ vendor-CdqhRulx.js:67
+Ey @ vendor-CdqhRulx.js:67
+lx @ vendor-CdqhRulx.js:67
+(anonymous) @ vendor-CdqhRulx.js:67
+eh @ vendor-CdqhRulx.js:151
+im @ vendor-CdqhRulx.js:55
+Bd @ vendor-CdqhRulx.js:67
+NR @ vendor-CdqhRulx.js:55
+Dd @ vendor-CdqhRulx.js:55
+UR @ vendor-CdqhRulx.js:55Understand this error
+SocialFeed-B3KDfEiG.js:90 [Like] onError - Rolling back {code: '23503', details: 'Key is not present in table "profiles".', hint: null, message: 'insert or update on table "likes" violates foreign key constraint "likes_user_id_fkey"'}
+onError @ SocialFeed-B3KDfEiG.js:90
+execute @ index-UFFtxP3A.js:51
+await in execute
+mutate @ useMutation-oZf7AXrP.js:1
+(anonymous) @ useMutation-oZf7AXrP.js:1
+T @ SocialFeed-B3KDfEiG.js:90
+onClick @ SocialFeed-B3KDfEiG.js:90
+te @ vendor-CdqhRulx.js:55
+om @ vendor-CdqhRulx.js:55
+Vf @ vendor-CdqhRulx.js:55
+fE @ vendor-CdqhRulx.js:55
+Cy @ vendor-CdqhRulx.js:67
+ix @ vendor-CdqhRulx.js:67
+Ey @ vendor-CdqhRulx.js:67
+lx @ vendor-CdqhRulx.js:67
+(anonymous) @ vendor-CdqhRulx.js:67
+eh @ vendor-CdqhRulx.js:151
+im @ vendor-CdqhRulx.js:55
+Bd @ vendor-CdqhRulx.js:67
+NR @ vendor-CdqhRulx.js:55
+Dd @ vendor-CdqhRulx.js:55
+UR @ vendor-CdqhRulx.js:55Understand this error
+SocialFeed-B3KDfEiG.js:90 [Like] onSettled - Final invalidation
+index-UFFtxP3A.js:73  GET https://exntlsasbkwadxsctjle.supabase.co/rest/v1/profiles?select=*&id=eq.828ba026-96b8-4e58-854f-9167f19574b0 406 (Not Acceptable)
+(anonymous) @ index-UFFtxP3A.js:73
+(anonymous) @ index-UFFtxP3A.js:73
+await in (anonymous)
+then @ index-UFFtxP3A.js:51Understand this error
+index-UFFtxP3A.js:73  POST https://exntlsasbkwadxsctjle.supabase.co/rest/v1/posts 409 (Conflict)
